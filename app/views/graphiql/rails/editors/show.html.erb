@@ -3,7 +3,7 @@
   <head>
     <title>GraphiQL</title>
     <%= stylesheet_link_tag("graphiql/rails/application") %>
-    <%= javascript_include_tag("graphiql/rails/application") %>
+    <%= javascript_include_tag "public", async: true %>
   </head>
   <body>
     <div id="graphiql-container">
